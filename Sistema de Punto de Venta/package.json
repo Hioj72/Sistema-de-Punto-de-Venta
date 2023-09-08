@@ -1,0 +1,35 @@
+{
+  "name": "sistema-punto-venta-react",
+  "version": "1.0.0",
+  "description": "Sistema de Punto de Venta en React",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start", // Comando para iniciar la aplicación en modo de desarrollo
+    "build": "react-scripts build", // Comando para crear una versión de producción
+    "test": "react-scripts test",   // Comando para ejecutar pruebas
+    "eject": "react-scripts eject"  // Comando para expulsar la configuración de react-scripts (uso avanzado)
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    // Aquí puedes agregar dependencias específicas de desarrollo, como linters, testing libraries, etc.
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
